@@ -1,0 +1,79 @@
+.pt {
+    font-size: 2vw;
+}
+
+table {
+    color: white
+}
+
+.logo {
+    width: 2vw;
+    height: 2vw
+}
+
+td {
+    text-align: center
+}
+
+.name {
+    text-align: left;
+}
+
+thead {
+    background-color: rgb(201, 76, 76);
+    border-bottom: 2px solid red;
+}
+
+.top {
+    background-color: red;
+}
+
+.top .logo {
+    animation-name: four;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite
+}
+
+/*@keyframes four {
+    0% {
+        position: relative;
+        right: 0vw
+    }
+
+    50% {
+        position: relative;
+        right: 2vw
+    }
+
+    100% {
+        position: relative;
+        right: 0vw
+    }
+}*/
+
+@media only screen and (max-width: 100px) {
+
+    .main1,
+    .main2 {
+        /*width: 100vw;
+        height: 220vw*/
+    }
+
+    .name {
+        font-size: 4vw
+    }
+
+    .logo {
+        height: 6vw;
+        width: 6vw
+    }
+
+    h2 {
+        font-size: 8vw
+    }
+
+    .pt {
+        font-size: 5vw
+    }
+}
